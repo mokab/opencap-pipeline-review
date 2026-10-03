@@ -1,0 +1,175 @@
+activation_saturation:
+  muscles_with_any_saturation:
+    glmed1_l: 0.0033
+    glmed1_r: 0.2612
+    glmin1_r: 0.0416
+    iliacus_r: 0.0116
+    tibant_l: 0.0017
+    tibant_r: 0.0666
+    tibpost_l: 0.0033
+  n_muscle_columns: 80
+case: mesh100
+contact_slip:
+  l:
+    iqr:
+    - -0.34052324999999584
+    - -0.30129762499999924
+    median_contact_point_vx: -0.3262169999999995
+    median_slip_vs_belt: 0.006783000000000539
+    n: 906
+  r:
+    iqr:
+    - -0.33780774999999785
+    - -0.30679687499999675
+    median_contact_point_vx: -0.31983449999999936
+    median_slip_vs_belt: 0.013165500000000663
+    n: 1112
+events:
+  L:
+    heel_strikes:
+    - 3.22
+    - 6.04
+    - 7.53
+    stance_fraction: 0.62
+    stride_period_mean: 2.1550000000000002
+    stride_period_sd: 0.6649999999999998
+    toe_offs:
+    - 2.56
+    - 4.89
+    - 7.06
+  R:
+    heel_strikes:
+    - 2.33
+    - 3.88
+    - 4.62
+    - 6.79
+    stance_fraction: 0.7166666666666667
+    stride_period_mean: 1.4866666666666666
+    stride_period_sd: 0.5855102238409011
+    toe_offs:
+    - 3.61
+    - 3.94
+    - 6.37
+grf:
+  ap_range_L_over_BW:
+  - -0.10480830250666273
+  - 0.1529554290188276
+  ap_range_R_over_BW:
+  - -0.13199043480343392
+  - 0.14375167527602767
+  integer_cycle_count: 2
+  integer_cycle_mean_total_vy_over_BW: 0.996279776191779
+  integer_cycle_window:
+  - 2.33
+  - 6.79
+  max_total_vy_over_BW: 1.291733820443855
+  mean_total_vy_over_BW: 0.9900831787079613
+  min_total_vy_over_BW: 0.04972434966778428
+  peak_vy_L_over_BW: 1.2915444087665648
+  peak_vy_R_over_BW: 1.1800096924824681
+ipopt:
+  complementarity:
+    scaled: 6.962928593647833e-09
+    unscaled: 6.962928593647833e-09
+  constraint_violation:
+    scaled: 7.623217296957506e-06
+    unscaled: 3.84806643562996e-05
+  dual_infeasibility:
+    scaled: 0.000706778923517813
+    unscaled: 0.000706778923517813
+  exit: Optimal Solution Found.
+  ipopt_seconds: 18460.469
+  iterations: 2211
+  nlp_error:
+    scaled: 0.000706778923517813
+    unscaled: 0.000706778923517813
+  objective:
+    scaled: 1.2393349793807633
+    unscaled: 1.2393349793807633
+  solve_min: 321.4
+n_mesh: 600
+peaks:
+  ankle_angle_l_moment:
+    max: 8.13125495
+    min: -120.34805759
+  ankle_angle_r_moment:
+    max: 23.75577806
+    min: -128.91910816
+  bflh_r:
+    max: 0.4518198
+    mean: 0.031126329284525796
+  gasmed_r:
+    max: 0.4947724
+    mean: 0.05365260241264559
+  glmax1_r:
+    max: 0.23834146
+    mean: 0.033613085224625625
+  glmed1_r:
+    max: 0.99994839
+    mean: 0.4877052649251248
+  hip_flexion_l_moment:
+    max: 117.67532792
+    min: -110.1511311
+  hip_flexion_r_moment:
+    max: 100.67962388
+    min: -109.26800198
+  knee_angle_l_moment:
+    max: 47.81004085
+    min: -69.64034035
+  knee_angle_r_moment:
+    max: 41.20352646
+    min: -114.07004743
+  psoas_r:
+    max: 0.68351143
+    mean: 0.11992119124792013
+  recfem_r:
+    max: 0.8628064
+    mean: 0.11663270146422629
+  soleus_r:
+    max: 0.53860904
+    mean: 0.06705121244592346
+  tibant_r:
+    max: 0.99993948
+    mean: 0.3983943990682196
+  vasmed_r:
+    max: 0.18688772
+    mean: 0.05056342036605657
+support:
+  double_support_fraction: 0.33666666666666667
+  no_support_fraction: 0.0
+  single_support_fraction: 0.6633333333333333
+tracking_error:
+  ankle_angle_l:
+    max_abs: 3.167669860369065
+    rms: 1.0503136271505464
+  ankle_angle_r:
+    max_abs: 4.899353734893705
+    rms: 1.4034081426297518
+  hip_flexion_l:
+    max_abs: 9.101219469170221
+    rms: 3.581875327546752
+  hip_flexion_r:
+    max_abs: 16.028465582102157
+    rms: 4.312051854378686
+  knee_angle_l:
+    max_abs: 6.552000094445852
+    rms: 2.7699098081057554
+  knee_angle_r:
+    max_abs: 33.1803844334452
+    rms: 7.988478034910358
+  pelvis_tilt:
+    max_abs: 0.8201020869608855
+    rms: 0.29827877343823145
+  pelvis_tx:
+    max_abs: 0.08515102858063436
+    rms: 0.04252472613647581
+  pelvis_ty:
+    max_abs: 0.05062742263407061
+    rms: 0.02438360998330011
+  pelvis_tz:
+    max_abs: 0.11687536999999992
+    rms: 0.04354963796757474
+trial: treadmill_walk01_pre
+window:
+- 2.0
+- 7.99

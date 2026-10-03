@@ -1,0 +1,10 @@
+casadi: 3.7.2
+ipopt: 3.14.11
+joblib: 1.4.2
+matplotlib: 3.7.5
+numpy: 1.24.4
+opensim: '4.5'
+pandas: 2.0.3
+platform: Linux-6.17.0-22-generic-x86_64-with-glibc2.29
+python: 3.8.10
+scipy: 1.10.0

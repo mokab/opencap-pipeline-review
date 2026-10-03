@@ -1,0 +1,5 @@
+__pycache__/
+.ipynb_checkpoints/
+execution_example/runs/
+public_data/data/
+.DS_Store

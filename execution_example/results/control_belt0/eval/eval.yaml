@@ -1,0 +1,244 @@
+activation_saturation:
+  muscles_with_any_saturation:
+    addbrev_l: 0.0249
+    addbrev_r: 0.0597
+    addlong_l: 0.0299
+    addlong_r: 0.0448
+    addmagDist_r: 0.01
+    addmagIsch_l: 0.01
+    addmagIsch_r: 0.005
+    addmagMid_l: 0.0199
+    addmagMid_r: 0.0299
+    addmagProx_l: 0.0597
+    addmagProx_r: 0.0697
+    bflh_r: 0.01
+    bfsh_l: 0.0398
+    bfsh_r: 0.0149
+    edl_l: 0.0398
+    edl_r: 0.0299
+    ehl_l: 0.0299
+    ehl_r: 0.0199
+    fdl_l: 0.0199
+    fdl_r: 0.0199
+    fhl_l: 0.0249
+    fhl_r: 0.0249
+    gaslat_l: 0.005
+    gaslat_r: 0.0149
+    gasmed_l: 0.0199
+    gasmed_r: 0.0199
+    glmax1_l: 0.0149
+    glmax1_r: 0.01
+    glmax2_l: 0.0398
+    glmax2_r: 0.01
+    glmax3_l: 0.0398
+    glmax3_r: 0.0149
+    glmed1_l: 0.0149
+    glmed1_r: 0.3184
+    glmed2_l: 0.005
+    glmed2_r: 0.0647
+    glmed3_l: 0.0199
+    glmin1_l: 0.0149
+    glmin1_r: 0.1891
+    glmin2_l: 0.0249
+    glmin2_r: 0.0249
+    glmin3_l: 0.0199
+    glmin3_r: 0.01
+    grac_l: 0.0398
+    grac_r: 0.0348
+    iliacus_l: 0.0299
+    iliacus_r: 0.0796
+    perbrev_l: 0.01
+    perbrev_r: 0.0398
+    perlong_l: 0.005
+    perlong_r: 0.0697
+    piri_l: 0.0299
+    piri_r: 0.0299
+    psoas_l: 0.0547
+    psoas_r: 0.0348
+    recfem_l: 0.1592
+    recfem_r: 0.0697
+    sart_l: 0.0945
+    sart_r: 0.0249
+    semimem_l: 0.005
+    semimem_r: 0.0995
+    semiten_r: 0.01
+    soleus_r: 0.0448
+    tfl_l: 0.0348
+    tfl_r: 0.0249
+    tibant_l: 0.0597
+    tibant_r: 0.0299
+    tibpost_l: 0.0149
+    tibpost_r: 0.0448
+    vasint_l: 0.005
+    vasint_r: 0.005
+    vaslat_l: 0.005
+    vaslat_r: 0.0249
+    vasmed_l: 0.01
+    vasmed_r: 0.005
+  n_muscle_columns: 80
+case: control_belt0
+contact_slip:
+  l:
+    iqr:
+    - -0.018440749999999895
+    - 0.0397672499999997
+    median_contact_point_vx: 0.0025482500000000297
+    median_slip_vs_belt: 0.0025482500000000297
+    n: 265
+  r:
+    iqr:
+    - -0.021237000000000006
+    - 0.012507000000000268
+    median_contact_point_vx: -0.002198749999999361
+    median_slip_vs_belt: -0.002198749999999361
+    n: 363
+events:
+  L:
+    heel_strikes:
+    - 2.86
+    - 4.14
+    - 5.62
+    stance_fraction: 0.505
+    stride_period_mean: 1.3800000000000001
+    stride_period_sd: 0.10000000000000031
+    toe_offs:
+    - 2.64
+    - 3.1
+    - 4.9
+  R:
+    heel_strikes:
+    - 2.36
+    - 4.24
+    - 4.3
+    - 4.7
+    stance_fraction: 0.695
+    stride_period_mean: 0.7800000000000001
+    stride_period_sd: 0.7901054781905179
+    toe_offs:
+    - 3.84
+    - 4.28
+    - 4.32
+    - 5.94
+grf:
+  ap_range_L_over_BW:
+  - -0.22507522158358204
+  - 0.32041589597533865
+  ap_range_R_over_BW:
+  - -0.30748484532625914
+  - 0.24101840439433572
+  integer_cycle_count: 1
+  integer_cycle_mean_total_vy_over_BW: 1.0028839525463258
+  integer_cycle_window:
+  - 2.36
+  - 4.7
+  max_total_vy_over_BW: 2.5713250786878397
+  mean_total_vy_over_BW: 0.9995124179680803
+  min_total_vy_over_BW: -0.0
+  peak_vy_L_over_BW: 2.3610999879149626
+  peak_vy_R_over_BW: 2.5713250786878397
+ipopt:
+  complementarity:
+    scaled: 1.0050586507179286e-08
+    unscaled: 1.0050586507179286e-08
+  constraint_violation:
+    scaled: 2.1629123886089115e-07
+    unscaled: 1.7576578628109019e-06
+  dual_infeasibility:
+    scaled: 5.351630405775553e-05
+    unscaled: 5.351630405775553e-05
+  exit: Optimal Solution Found.
+  ipopt_seconds: 7605.359
+  iterations: 1754
+  nlp_error:
+    scaled: 5.351630405775553e-05
+    unscaled: 5.351630405775553e-05
+  objective:
+    scaled: 26.74519183765258
+    unscaled: 26.74519183765258
+  solve_min: 131.2
+n_mesh: 200
+peaks:
+  ankle_angle_l_moment:
+    max: 14.54902643
+    min: -165.03283671
+  ankle_angle_r_moment:
+    max: 9.58318009
+    min: -283.20680739
+  bflh_r:
+    max: 0.9999975
+    mean: 0.08858884910447762
+  gasmed_r:
+    max: 0.9999998
+    mean: 0.10026060283582089
+  glmax1_r:
+    max: 0.99999558
+    mean: 0.05022056373134328
+  glmed1_r:
+    max: 0.99999322
+    mean: 0.4893181224378109
+  hip_flexion_l_moment:
+    max: 177.38745375
+    min: -55.63358746
+  hip_flexion_r_moment:
+    max: 225.12055569
+    min: -191.24423397
+  knee_angle_l_moment:
+    max: 28.3717228
+    min: -263.63064918
+  knee_angle_r_moment:
+    max: 98.0392095
+    min: -335.32194922
+  psoas_r:
+    max: 0.99999992
+    mean: 0.16630383383084577
+  recfem_r:
+    max: 0.99999896
+    mean: 0.18745700587064676
+  soleus_r:
+    max: 0.99999987
+    mean: 0.14023584631840796
+  tibant_r:
+    max: 0.99999943
+    mean: 0.32154677194029857
+  vasmed_r:
+    max: 0.99999873
+    mean: 0.08797298945273632
+support:
+  double_support_fraction: 0.275
+  no_support_fraction: 0.075
+  single_support_fraction: 0.65
+tracking_error:
+  ankle_angle_l:
+    max_abs: 29.26530965863296
+    rms: 6.632287288202677
+  ankle_angle_r:
+    max_abs: 16.47271815
+    rms: 5.0608581836783495
+  hip_flexion_l:
+    max_abs: 22.648782246195466
+    rms: 8.347812671176
+  hip_flexion_r:
+    max_abs: 31.630423519188614
+    rms: 11.150865763085193
+  knee_angle_l:
+    max_abs: 114.85336072518444
+    rms: 30.214076652126945
+  knee_angle_r:
+    max_abs: 114.15181189718368
+    rms: 27.466056611535567
+  pelvis_tilt:
+    max_abs: 7.594231373559575
+    rms: 2.928386104035225
+  pelvis_tx:
+    max_abs: 0.10055992000000001
+    rms: 0.05739514417355105
+  pelvis_ty:
+    max_abs: 0.09370785975099905
+    rms: 0.028211351187503474
+  pelvis_tz:
+    max_abs: 0.15201189999999987
+    rms: 0.082392513488109
+trial: treadmill_walk01_pre
+window:
+- 2.0
+- 5.98
